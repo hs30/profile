@@ -1,0 +1,108 @@
+/* @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css'); */
+
+h1 {
+  color: rgb(3, 37, 108);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 35px;
+  line-height: 2;
+}
+
+h2 {
+  color: rgb(37, 65, 178);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+}
+
+h3 {
+  color: rgb(23, 104, 172);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 23px;
+}
+
+body {
+  color: #061724; /* paragraph text colour? */
+  background-color: rgb(250, 246, 246);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+li {
+  line-height: 2;
+}
+
+a {
+color: rgb(6, 190, 225);
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover {
+  color: rgba(6, 190, 255);
+}
+
+/* p {
+  color: red;
+  letter-spacing: 10px;
+} */
+
+.card-white { /* component-shape/colour */
+  background: white;
+  padding: 40px;
+  border: 1px solid rgba(0,0,0,0.05);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 700px;      /* div centering technique */
+  margin: 40px auto; /* div centering technique */
+}
+
+.text-center {
+  text-align: center;
+}
+
+#introduction {
+  margin-bottom: 40px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/* Notes */
+/* how to add font size to paragraph text only */
+/* create all element rules in one body or one for each? */
+/* space out p text from 'Follow me' heading */
+/* difference between setting element rules in body and headers (h3), does header override body? */
+/* text size - in p {} or body {} */
+/* how to style css in inspect */
+/* how does media queries work? .container etc. */
